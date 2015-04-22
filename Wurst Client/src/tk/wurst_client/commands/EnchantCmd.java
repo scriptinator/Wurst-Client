@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2015 | Alexander01998 | All rights reserved.
+ * Copyright Â© 2014 - 2015 | Alexander01998 | All rights reserved.
  * 
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -21,7 +21,7 @@ public class EnchantCmd extends Cmd
 	@Override
 	public void execute(String[] args) throws Error
 	{
-		if(!Minecraft.getMinecraft().thePlayer.capabilities.isCreativeMode)
+		if(!Minecraft.getMinecraft().thePlayer.capabilities.isSurvivalMode)
 			error("Creative mode only.");
 		if(args.length == 0)
 		{
