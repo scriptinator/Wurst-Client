@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2015 | Alexander01998 | All rights reserved.
+ * Copyright Â© 2014 - 2015 | Alexander01998 | All rights reserved.
  * 
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -35,7 +35,7 @@ public class AutoEatMod extends Mod implements UpdateListener
 	{
 		if(oldSlot != -1
 			|| Minecraft.getMinecraft().thePlayer.capabilities.isCreativeMode
-			|| Minecraft.getMinecraft().thePlayer.getFoodStats().getFoodLevel() >= 20)
+			|| Minecraft.getMinecraft().thePlayer.getFoodStats().getFoodLevel() >= 16)
 			return;
 		float bestSaturation = 0F;
 		bestSlot = -1;
